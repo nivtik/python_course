@@ -25,7 +25,8 @@ def check_palindrome():
 
     return palindrome_list
 
-palindrome_list=check_palindrome()
-print(palindrome_list)
+if __name__ == '__main__':
+    print(check_palindrome())
+
 
 
